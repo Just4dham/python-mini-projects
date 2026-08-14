@@ -11,7 +11,7 @@ A collection of interactive command-line interface (CLI) applications built usin
 | `number_guessing_game.py` | Guess a random number between 1 and 100 with attempt limits. | Saves personal best records to `highscore.json` using JSON file I/O. |
 | `rock_paper_scissors.py` | Classic game played against the computer. | Keeps running score state until the player exits. |
 | `cli_calculator.py` | Command-line math calculator. | Error handling for zero division and invalid numerical inputs. |
-| `Random_Choice,py` | Interactive decision maker that picks a random option from a custom list. | Input sanitation (`.strip().lower()`), auto-capitalization (`capwords`), and crash protection. |
+| `Random_Choice.py` | Interactive decision maker that picks a random option from a custom list. | Input sanitation (`.strip().lower()`), auto-capitalization (`capwords`), and crash protection. |
 | `currency_converter.py` | Instant exchange rate calculator (e.g., USD to SAR). | Handles `float` conversions, arithmetic math, and clean formatted outputs. |
 
 ---
@@ -26,5 +26,5 @@ A collection of interactive command-line interface (CLI) applications built usin
 python number_guessing_game.py
 python rock_paper_scissors.py
 python cli_calculator.py
-python Random_Choice,py
+python Random_Choice.py
 python currency_converter.py
