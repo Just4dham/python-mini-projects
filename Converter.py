@@ -1,7 +1,25 @@
-print("--- USD to SAR Converter ---")
+while True:
+    currency = input("What currency? (Euro, USD, or KWD): ").strip().upper()
 
-usd = float(input("Enter amount in USD: "))
+    if currency == "USD":
+        num = float(input("Enter the amount: "))
 
-sar = usd * 3.75
+        print(f"SAR: {num * 3.75}")
 
-print(f"{usd} USD is equal to {sar} SAR")
+    elif currency in ["EURO", "EUR"]:
+
+        num = float(input("Enter the amount: "))
+
+        print(f"SAR: {num * 4.33}")
+    elif currency == "KWD":
+
+        num = float(input("Enter the amount: "))
+
+        print(f"SAR: {num * 12.15}")
+
+    else:
+        print("Enter a valid currency :)")
+
+    Quit = input("Quit? (Y/N): ").strip().upper()
+    if Quit == "Y":
+        break
