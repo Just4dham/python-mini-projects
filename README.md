@@ -13,6 +13,7 @@ A collection of interactive command-line interface (CLI) applications built usin
 | `cli_calculator.py` | Command-line math calculator. | Error handling for zero division and invalid numerical inputs. |
 | `Random_Choice.py` | Interactive decision maker that picks a random option from a custom list. | Input sanitation (`.strip().lower()`), auto-capitalization (`capwords`), and crash protection. |
 | `currency_converter.py` | Instant exchange rate calculator (e.g., USD to SAR). | Handles `float` conversions, arithmetic math, and clean formatted outputs. |
+| `unit_evaluator.py` | Multi-unit conversion tool for weight, length, and distance measurements. | Advanced conditional branching, string tuples (`endswith`/likle `startswith`), and dynamic user prompts. |
 
 ---
 
@@ -28,3 +29,4 @@ python rock_paper_scissors.py
 python cli_calculator.py
 python Random_Choice.py
 python currency_converter.py
+python converter.py
